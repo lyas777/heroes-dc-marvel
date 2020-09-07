@@ -57,9 +57,7 @@ export class HeroesService {
   ];
 
 
-    constructor() {
-        console.log('Servicio listo para usar!!!');
-    }
+    constructor() { }
 
     getHeroes(): Heroe[] {
       return this.heroes;
@@ -84,7 +82,7 @@ export class HeroesService {
 
 }
 
-// por esta vez
+// Solo por efectos del ejemplo
 export interface Heroe {
   nombre: string;
   bio: string;

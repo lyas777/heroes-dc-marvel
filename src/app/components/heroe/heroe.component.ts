@@ -24,7 +24,7 @@ export class HeroeComponent {
     // console.log(params['id']);
       // hacer referencia al servicio importar el servicio
       this.heroe = this._heroesService.getHeroe(params[ 'id']);
-      console.log(this.heroe);
+      // console.log(this.heroe);
     });
   }
   regresar(): any {
