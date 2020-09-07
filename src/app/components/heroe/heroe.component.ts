@@ -3,7 +3,6 @@ import { ActivatedRoute } from '@angular/router';
 import { HeroesService } from '../../servicios/heroes.service';
 import { Router } from '@angular/router';
 
-
 @Component({
   selector: 'app-heroe',
   templateUrl: './heroe.component.html',
@@ -24,7 +23,7 @@ export class HeroeComponent {
     "id" es lo que declaramos en el router "heroe: id" */
     // console.log(params['id']);
       // hacer referencia al servicio importar el servicio
-      this.heroe = this._heroesService.getHeroe(params['id']);
+      this.heroe = this._heroesService.getHeroe(params[ 'id']);
       console.log(this.heroe);
     });
   }
